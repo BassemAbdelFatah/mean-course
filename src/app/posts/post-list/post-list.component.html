@@ -1,0 +1,44 @@
+<mat-accordion *ngIf="posts.length > 0">
+  <mat-expansion-panel *ngFor="let post of posts">
+    <mat-expansion-panel-header class="headers-align">
+      <mat-panel-title class="panal-header">
+        <div>
+          Development plan For:
+          <p class="outPut">{{ post.engName }}</p>
+        </div>
+      </mat-panel-title>
+      <mat-icon class="icon">account_circle</mat-icon>
+    </mat-expansion-panel-header>
+    <div>
+      Track Name:
+      <p class="outPut">{{ post.track }}</p>
+    </div>
+    <div>
+      Technology Name:
+      <p class="outPut">{{ post.techName }}</p>
+    </div>
+    <div>
+      Start Date:
+      <p class="outPut">{{ post.startDate }}</p>
+    </div>
+    <div>
+      End Date:
+      <p class="outPut">{{ post.endDate }}</p>
+    </div>
+    <div>
+      Notes:
+      <p class="outPut">{{ post.content }}</p>
+    </div>
+    <mat-action-row>
+      <button mat-button color="primary">EDIT</button>
+      <button mat-button color="warn">DELETE</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>
+<div
+  *ngIf="posts.length == 0"
+  class="ripple-container mat-elevation-z4"
+  matRipple
+>
+  Nothing To Show
+</div>

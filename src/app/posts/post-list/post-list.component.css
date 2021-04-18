@@ -1,0 +1,43 @@
+mat-expansion-panel {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.info-text {
+  text-align: center;
+}
+.ripple-container {
+  margin: auto;
+  margin-top: 3rem;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: rebeccapurple;
+}
+.headers-align {
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  margin: auto;
+  width: 3rem;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+}
+.outPut {
+  font-size: large;
+  font-weight: 500;
+  display: inline-block;
+}
+.labl {
+  display: inline-block;
+}

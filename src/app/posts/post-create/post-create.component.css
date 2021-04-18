@@ -1,0 +1,17 @@
+mat-form-field {
+  display: block;
+}
+
+.post-values {
+  width: 50%;
+  margin: 0;
+  display: block;
+}
+.post-date {
+  margin: 0;
+  width: 50%;
+  display: block;
+}
+.submitbutton {
+  margin-top: 1 rem;
+}

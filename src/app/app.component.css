@@ -1,0 +1,10 @@
+main {
+  width: 100%;
+  margin: auto;
+}
+
+.post {
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+}
